@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace OpenCvSharp
    ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -132,7 +132,10 @@ For each descriptor in the first set, this matcher finds the closest descriptor 
       <section><p>The base class for camera response calibration algorithms.</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.CalibrateDebevec.html">CalibrateDebevec</a></h4>
-      <section><p>The base class for camera response calibration algorithms.</p>
+      <section><p>CalibrateDebevec object</p>
+</section>
+      <h4><a class="xref" href="OpenCvSharp.CalibrateRobertson.html">CalibrateRobertson</a></h4>
+      <section><p>CalibrateRobertson object</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.CascadeClassifier.html">CascadeClassifier</a></h4>
       <section><p>Cascade classifier class for object detection.</p>
@@ -224,6 +227,9 @@ Detects position, translation and rotation</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.HOGDescriptor.html">HOGDescriptor</a></h4>
       <section><p>HOG (Histogram-of-Oriented-Gradients) Descriptor and Object Detector</p>
+</section>
+      <h4><a class="xref" href="OpenCvSharp.ImageEncodingParam.html">ImageEncodingParam</a></h4>
+      <section><p>The format-specific save parameters for cv::imwrite and cv::imencode</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.InputArray.html">InputArray</a></h4>
       <section><p>Proxy data type for passing Mat's and vector&lt;&gt;'s as input parameters</p>
@@ -432,11 +438,29 @@ Original code can be found here [http://vision.ucsd.edu/~bbabenko/project_miltra
       <h4><a class="xref" href="OpenCvSharp.UMat.html">UMat</a></h4>
       <section><p>OpenCV C++ n-dimensional dense array class (cv::Mat)</p>
 </section>
+      <h4><a class="xref" href="OpenCvSharp.UsacParams.html">UsacParams</a></h4>
+      <section></section>
       <h4><a class="xref" href="OpenCvSharp.VideoCapture.html">VideoCapture</a></h4>
       <section><p>Video capturing class</p>
 </section>
+      <h4><a class="xref" href="OpenCvSharp.VideoCapturePara.html">VideoCapturePara</a></h4>
+      <section><p>Parameters of VideoCature for hardware acceleration
+Please check the link below for current HW acceleration types support matrix
+<a href="https://github.com/opencv/opencv/wiki/Video-IO-hardware-acceleration">https://github.com/opencv/opencv/wiki/Video-IO-hardware-acceleration</a></p>
+</section>
       <h4><a class="xref" href="OpenCvSharp.VideoWriter.html">VideoWriter</a></h4>
       <section><p>AVI Video File Writer</p>
+</section>
+      <h4><a class="xref" href="OpenCvSharp.VideoWriterPara.html">VideoWriterPara</a></h4>
+      <section><p>Parameters of VideoWriter for hardware acceleration
+Please check the link below for current HW acceleration types support matrix
+<a href="https://github.com/opencv/opencv/wiki/Video-IO-hardware-acceleration">https://github.com/opencv/opencv/wiki/Video-IO-hardware-acceleration</a></p>
+</section>
+      <h4><a class="xref" href="OpenCvSharp.WeChatQRCode.html">WeChatQRCode</a></h4>
+      <section><p>WeChat QRCode includes two CNN-based models:
+A object detection model and a super resolution model.
+Object detection model is applied to detect QRCode with the bounding box.
+super resolution model is applied to zoom in QRCode when it is small.</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.Window.html">Window</a></h4>
       <section><p>Wrapper of HighGUI window</p>
@@ -592,6 +616,8 @@ The class implements RNG using Multiply-with-Carry algorithm.</p>
       <h4><a class="xref" href="OpenCvSharp.Vec6w.html">Vec6w</a></h4>
       <section><p>4-Tuple of ushort (System.UInt16)</p>
 </section>
+      <h4><a class="xref" href="OpenCvSharp.WUsacParams.html">WUsacParams</a></h4>
+      <section></section>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="OpenCvSharp.ICvPtrHolder.html">ICvPtrHolder</a></h4>
@@ -695,10 +721,10 @@ The class implements RNG using Multiply-with-Carry algorithm.</p>
       <h4><a class="xref" href="OpenCvSharp.EdgePreservingMethods.html">EdgePreservingMethods</a></h4>
       <section><p>Edge preserving filters</p>
 </section>
-      <h4><a class="xref" href="OpenCvSharp.EM.StartStep.html">EM.StartStep</a></h4>
+      <h4><a class="xref" href="OpenCvSharp.EMStartStep.html">EMStartStep</a></h4>
       <section><p>The initial step the algorithm starts from</p>
 </section>
-      <h4><a class="xref" href="OpenCvSharp.EM.Types.html">EM.Types</a></h4>
+      <h4><a class="xref" href="OpenCvSharp.EMTypes.html">EMTypes</a></h4>
       <section><p>Type of covariation matrices</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.ErrorCode.html">ErrorCode</a></h4>
@@ -804,6 +830,8 @@ decoder for special applications.</p>
       <h4><a class="xref" href="OpenCvSharp.LineTypes.html">LineTypes</a></h4>
       <section><p>Type of the line</p>
 </section>
+      <h4><a class="xref" href="OpenCvSharp.LocalOptimMethod.html">LocalOptimMethod</a></h4>
+      <section></section>
       <h4><a class="xref" href="OpenCvSharp.MarkerTypes.html">MarkerTypes</a></h4>
       <section><p>Possible set of marker types used for the cv::drawMarker function</p>
 </section>
@@ -825,6 +853,8 @@ decoder for special applications.</p>
       <h4><a class="xref" href="OpenCvSharp.MouseEventTypes.html">MouseEventTypes</a></h4>
       <section><p>Mouse Events</p>
 </section>
+      <h4><a class="xref" href="OpenCvSharp.NeighborSearchMethod.html">NeighborSearchMethod</a></h4>
+      <section></section>
       <h4><a class="xref" href="OpenCvSharp.NextEdgeType.html">NextEdgeType</a></h4>
       <section><p>Parameter for Subdiv2D.GetEdge() specifying which of the related edges to return.</p>
 </section>
@@ -867,6 +897,10 @@ decoder for special applications.</p>
       <h4><a class="xref" href="OpenCvSharp.RotateFlags.html">RotateFlags</a></h4>
       <section><p>an enum to specify how to rotate the array.</p>
 </section>
+      <h4><a class="xref" href="OpenCvSharp.SamplingMethod.html">SamplingMethod</a></h4>
+      <section></section>
+      <h4><a class="xref" href="OpenCvSharp.ScoreMethod.html">ScoreMethod</a></h4>
+      <section></section>
       <h4><a class="xref" href="OpenCvSharp.SeamlessCloneMethods.html">SeamlessCloneMethods</a></h4>
       <section><p>SeamlessClone method</p>
 </section>
@@ -903,6 +937,11 @@ decoder for special applications.</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.UMatUsageFlags.html">UMatUsageFlags</a></h4>
       <section><p>cv::UMatUsageFlags</p>
+</section>
+      <h4><a class="xref" href="OpenCvSharp.VideoAccelerationType.html">VideoAccelerationType</a></h4>
+      <section><p>Video Acceleration type
+Used as value in #CAP_PROP_HW_ACCELERATION and #VIDEOWRITER_PROP_HW_ACCELERATION
+note In case of FFmpeg backend, it translated to enum AVHWDeviceType (<a href="https://github.com/FFmpeg/FFmpeg/blob/master/libavutil/hwcontext.h">https://github.com/FFmpeg/FFmpeg/blob/master/libavutil/hwcontext.h</a>)</p>
 </section>
       <h4><a class="xref" href="OpenCvSharp.VideoCaptureAPIs.html">VideoCaptureAPIs</a></h4>
       <section><p>Camera device types</p>

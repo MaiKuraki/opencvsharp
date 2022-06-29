@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum EM.StartStep
+    <title>Namespace OpenCvSharp.Segmentation
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum EM.StartStep
+    <meta name="title" content="Namespace OpenCvSharp.Segmentation
    ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -68,53 +68,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="OpenCvSharp.EM.StartStep">
+            <article class="content wrap" id="_content" data-uid="OpenCvSharp.Segmentation">
   
-  
-  <h1 id="OpenCvSharp_EM_StartStep" data-uid="OpenCvSharp.EM.StartStep" class="text-break">Enum EM.StartStep
+  <h1 id="OpenCvSharp_Segmentation" data-uid="OpenCvSharp.Segmentation" class="text-break">Namespace OpenCvSharp.Segmentation
   </h1>
-  <div class="markdown level0 summary"><p>The initial step the algorithm starts from</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenCvSharp.html">OpenCvSharp</a></h6>
-  <h6><strong>Assembly</strong>: OpenCvSharp.dll</h6>
-  <h5 id="OpenCvSharp_EM_StartStep_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum StartStep</code></pre>
-  </div>
-  <h3 id="fields">Fields
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
   </h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="OpenCvSharp_EM_StartStep_Auto">Auto</td>
-        <td><p>No values are required from the user, k-means algorithm is used to estimate initial mixtures parameters.
-[CvEM::START_AUTO_STEP]</p>
-</td>
-      </tr>
-      <tr>
-        <td id="OpenCvSharp_EM_StartStep_E">E</td>
-        <td><p>The algorithm starts with E-step.
-At least, the initial values of mean vectors, CvEMParams.Means must be passed.
-Optionally, the user may also provide initial values for weights (CvEMParams.Weights)
-and/or covariation matrices (CvEMParams.Covs).
-[CvEM::START_E_STEP]</p>
-</td>
-      </tr>
-      <tr>
-        <td id="OpenCvSharp_EM_StartStep_M">M</td>
-        <td><p>The algorithm starts with M-step. The initial probabilities p_i,k must be provided.
-[CvEM::START_M_STEP]</p>
-</td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
+      <h4><a class="xref" href="OpenCvSharp.Segmentation.IntelligentScissorsMB.html">IntelligentScissorsMB</a></h4>
+      <section><p>Intelligent Scissors image segmentation</p>
+<p>This class is used to find the path (contour) between two points
+which can be used for image segmentation.</p>
+<p>Usage example:
+@snippet snippets/imgproc_segmentation.cpp usage_example_intelligent_scissors</p>
+<p>Reference: Intelligent Scissors for Image Composition <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.138.3811">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.138.3811</a>&amp;rep=rep1&amp;type=pdf
+algorithm designed by Eric N. Mortensen and William A. Barrett, Brigham Young University
+@cite Mortensen95intelligentscissors</p>
+</section>
 </article>
           </div>
           
@@ -122,12 +94,6 @@ and/or covariation matrices (CvEMParams.Covs).
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/shimat/opencvsharp/new/master/apiSpec/new?filename=OpenCvSharp_EM_StartStep.md&amp;value=---%0Auid%3A%20OpenCvSharp.EM.StartStep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/shimat/opencvsharp/blob/master/src/OpenCvSharp/Modules/ml/EM.cs/#L450" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
